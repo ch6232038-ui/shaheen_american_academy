@@ -1,0 +1,21 @@
+name: shaheen_american_academy
+description: Shaheen American Academy
+
+publish_to: "none"
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  supabase_flutter: ^2.14.2
+  intl: ^0.19.0
+  video_player: ^2.14.0
+  image_picker: ^1.1.2
+  url_launcher: ^6.3.2
+
+flutter:
+  uses-material-design: true
